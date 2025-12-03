@@ -32,7 +32,6 @@ export default function TasksPage() {
 
   // Clerk hooks
   const { user } = useUser();
-  const { session } = useSession();
 
   // Supabase client with Clerk token
   const supabase = useClerkSupabaseClient();
